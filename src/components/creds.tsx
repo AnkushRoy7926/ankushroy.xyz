@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Credits() {
     return (
-        <div id="creds" className='fixed bottom-1 right-1 text-light'>
+        <div id="creds" className='fixed bottom-3 right-5 text-light'>
             Photo by{' '}
             <Link className='no-underline' href="https://unsplash.com/@pueblovista?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
                 Paul Pastourmatzis

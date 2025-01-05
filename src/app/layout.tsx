@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "@styles/globals.css";
-import Navbar from "@components/navbar"
-import Credits from '@components/creds';
+import Navbar from "@components/navbar";
 
 export const metadata: Metadata = {
   title: "Ankush Roy",
@@ -18,7 +17,7 @@ export default function RootLayout({
       <body>
         <Navbar></Navbar>
         {children}
-        {/* <Credits></Credits>  */}
+        
       </body>
 
     </html>

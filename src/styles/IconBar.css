@@ -1,15 +1,15 @@
 .icons {
     text-decoration: none;
     transition: transform 0.3s ease, color 0.3s ease; 
-    /* z-index: 5; */
     color: #a0a9b8;
 }
 
 #iconBarContainer{
     pointer-events: all;
-    position: fixed;
+    position: absolute;
     bottom: 0;
-    
+    right: 0;
+    left: 0;
 }
 
 .icons:hover {

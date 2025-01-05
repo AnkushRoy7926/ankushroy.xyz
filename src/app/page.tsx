@@ -3,6 +3,7 @@
 import React, { useEffect} from 'react';
 import "@styles/index.css";
 import IconBar from "@components/iconBar"
+import Credits from '@/components/creds';
 
 export default function Home() {
   const text = "Hello, Traveller";
@@ -65,6 +66,7 @@ export default function Home() {
         <h1 id="desc"></h1>
       </div>
       <IconBar></IconBar>
+      <Credits></Credits> 
     </div>
   );
 }

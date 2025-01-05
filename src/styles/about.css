@@ -1,0 +1,82 @@
+#MainContainerAbout {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#shortAboutText{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    width: 65vw;
+    text-align: center;
+}
+
+.Header {
+    font-size: 2.75rem;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.bg {
+    width: 60vw;
+    padding: 5rem;
+    padding-top: 4rem;
+    background-color: rgba(255,255,255,0.25);
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    margin-top: 3.75rem;
+    font-size: 1.5rem;
+}
+
+
+.pointHead{
+    font-weight: 600;
+    font-size: 1.65rem;
+}
+
+.indivPoint{
+    margin-bottom: 2rem;
+}
+
+.pointInfo{
+    padding-left: 3rem;
+}
+
+
+.infoSection {
+    padding-left: 3.25rem;
+}
+
+
+@media screen and (max-width: 768) {
+    .bg{
+        width: 90vw;
+        font-size: 2.25rem;
+        padding: 3rem;
+        padding-top: 4rem;
+    }
+
+    .Header {
+        font-size: 4rem;
+    }
+
+    .infoSection{
+        padding-left: auto;
+    }
+
+    .pointHead{
+        font-size: 2.65rem;
+    }
+
+    .indivPoint{
+        margin-bottom: 4rem;
+    }
+
+    .Header{
+        margin-bottom: 3rem;
+    }
+}
+
