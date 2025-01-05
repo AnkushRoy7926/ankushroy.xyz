@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Miss+Fajardose&family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=WindSong:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('../../public/bg.jpg');
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    overflow-x: hidden;
+    /* overflow-y: scroll; */
+    color: rgb(0,21,55);
+}
+
+@media screen and (max-width: 1512px) {
+
+  html{
+      font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 882) {
+  html{
+      font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 656) {
+  html{
+      font-size: 7px;
+  }
+}

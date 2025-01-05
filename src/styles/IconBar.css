@@ -1,0 +1,25 @@
+.icons {
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease; 
+    /* z-index: 5; */
+    color: #a0a9b8;
+}
+
+#iconBarContainer{
+    pointer-events: all;
+    position: fixed;
+    bottom: 0;
+    
+}
+
+.icons:hover {
+    cursor: pointer;
+    transform: scale(1.2); 
+}
+
+#iconList{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
