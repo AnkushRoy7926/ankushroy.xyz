@@ -37,7 +37,7 @@ export default function About() {
                   <p className="text-blk input-title">
                     WHAT DO YOU HAVE IN MIND ?
                   </p>
-                  <textarea className="textinput" id="i5vyy-3" placeholder="Please enter query..."></textarea>
+                  <textarea className="textinput" id="i5vyy-3" placeholder="Please enter your message..."></textarea>
                 </div>
               </div>
               <button className="submit-btn" id="w-c-s-bgc_p-1-dm-id-2">

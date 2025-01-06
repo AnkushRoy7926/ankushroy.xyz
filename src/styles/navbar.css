@@ -37,7 +37,7 @@
     width: 100vw;
     flex-direction: column;
     height: min-content;
-
+    margin-top: 20px;
 }
 
 .links {
@@ -57,3 +57,10 @@
         width: 80%;
     }
   }
+
+@media screen and (max-width: 768px) {
+    #navContainer {
+        margin-top: auto;
+    }
+  }
+

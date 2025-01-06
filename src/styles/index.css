@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&family=WindSong:wght@400;500&display=swap');
 
 
+
 #Name {
     font-family: "WindSong", serif;
     /* font-family: "Montserrat", serif; */
@@ -24,6 +25,7 @@
 
     position: relative;
     left: -2rem;
+    overflow-y: hidden;
 }
 
 
@@ -139,6 +141,27 @@
         top: -10rem;
     }
 
+    ._404_mob {
+        font-size: 20rem !important;
+        padding: 5rem !important;
+    }
+
+    #MainContainer{
+        height: 90vh;
+        overflow-y: hidden;
+    }
+
 
 }
 
+
+._404 {
+    font-size: 20rem !important;
+    opacity: 1 !important;
+    clip-path: none !important;
+
+}
+
+._404_mob {
+    font-size: 20rem !important;
+}
