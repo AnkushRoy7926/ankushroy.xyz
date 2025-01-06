@@ -15,9 +15,6 @@ export default {
         dark: 'rgb(0,21,55)',
       },
     },
-    fontSize: {
-      '404xl' : '50rem',
-    }
   },
   plugins: [],
 } satisfies Config;
