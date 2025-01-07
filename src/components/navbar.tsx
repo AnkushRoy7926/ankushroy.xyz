@@ -13,7 +13,6 @@ export default function Navbar() {
               <Link className='links' href="/about">About & Portfolio</Link>
 
               <Link className='links' href="/contact">Contact</Link>
-          
         </div>
       </div>
     );

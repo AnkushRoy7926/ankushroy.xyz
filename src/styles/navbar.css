@@ -64,3 +64,30 @@
     }
   }
 
+@media screen and (max-width: 812px) {
+    #Nav {
+        width: 100vw;
+        height: 10vh;
+        background-color: rgba(255,255,255, 0.3);
+        /* background-color: rgba(0,21,55, 0.8); */
+        /* color: #a0a9b8; */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        border-top: 1px dashed rgb(0,21,55);
+
+        margin-top: 0;
+        border-radius: 0;
+        top: 0;
+    }
+    .links{
+        margin: 0 1rem;
+        font-size: 2rem;
+        
+    }
+
+    .links:hover{
+        transform: none;
+    }
+
+    
+}

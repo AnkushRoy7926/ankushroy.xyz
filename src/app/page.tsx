@@ -49,7 +49,6 @@ export default function Home() {
   useEffect(() => {
     const timer = setTimeout(() => {
       animateDiv("Name");
-      animateDiv("mobileName");
     }, 100); // Slight delay to make sure the element exists
     () => clearTimeout(timer);
     typeText();
