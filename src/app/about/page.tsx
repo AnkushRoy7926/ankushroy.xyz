@@ -2,7 +2,7 @@
 
 import "@styles/about.css";
 import Link from "next/link";
-import VanillaTilt from "vanilla-tilt";
+// import VanillaTilt from "vanilla-tilt";
 // import { useEffect } from "react";
 
 export default function About() {

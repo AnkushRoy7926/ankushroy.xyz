@@ -23,7 +23,7 @@ export default function Home() {
 
   
   function animateDiv(id:string) {
-    let animatedDiv = document.getElementById(id);
+    const animatedDiv = document.getElementById(id);
   
     let progress = 0; // Start at 0%
     const animationDuration = 2000; // Duration in ms
