@@ -82,7 +82,7 @@ export default function About() {
                 Senior Member  |  Tech Club DPSRPK 2023
               </div>
               <div className="pointInfo">
-                I was chosen as the senior member of my school's Tech Club under the department of Development. <i>(This included <span className="keywords_2">Web Development</span>  and <span className="keywords_2">App Development</span>)</i>
+                I was chosen as the senior member of my school&#39;s Tech Club under the department of Development. <i>(This included <span className="keywords_2">Web Development</span>  and <span className="keywords_2">App Development</span>)</i>
               </div>
           </div>
 
@@ -197,7 +197,7 @@ export default function About() {
                 🥇 First Place | Exypnos Computer Quiz 2023
               </div>
               <div className="pointInfo">
-                Tech Quiz, awarded by La Martiniere's for Boys
+                Tech Quiz, awarded by La Martiniere&#39;s for Boys
               </div>
             </div>
 

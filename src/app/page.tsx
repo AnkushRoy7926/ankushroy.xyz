@@ -50,6 +50,8 @@ export default function Home() {
     const timer = setTimeout(() => {
       animateDiv("Name");
     }, 100); // Slight delay to make sure the element exists
+    
+    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
     () => clearTimeout(timer);
     typeText();
 	}, []);
