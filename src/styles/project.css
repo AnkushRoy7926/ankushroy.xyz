@@ -21,7 +21,6 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: rgba(244, 244, 244, 0.6);
     height: 100%;
-
     display: flex; /* Use Flexbox for alignment */
     flex-direction: column; /* Stack elements vertically */
     justify-content: space-between; /* Push content to the edges */
@@ -92,6 +91,10 @@
   .project-card{
     width: 40vw;
   }
+
+  .github-link{
+    font-size: 1.3009rem;
+  }
 }
 
 @media screen and (max-width: 884){
@@ -103,6 +106,8 @@
   .project-cards-container{
     grid-template-columns: repeat(1, 1fr);
     gap: 4rem;
+    margin: 1rem;
+    row-gap: 7rem;
   }
 
   .project-card{
@@ -117,5 +122,6 @@
 
   #shortProjectText {
     font-size: 1.8rem;
+    margin-bottom: 3rem;
   }
 }

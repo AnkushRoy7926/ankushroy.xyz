@@ -1,35 +1,10 @@
 import React from "react";
 import "@styles/project.css";
+import projects from "./../../projData.json"; // Adjust the path as necessary
+
 
 export default function About() {
   // Sample project data
-  const projects = [
-    {
-      title: "Recommendation System",
-      description: "A project related to K-Nearest Neighbors (KNN) model implementation.",
-      github: "https://github.com/LordRaleigh7926/Recommendation_System"
-    },
-    {
-      title: "LordRaleigh7926",
-      description: "Personal GitHub profile repository.",
-      github: "https://github.com/LordRaleigh7926/LordRaleigh7926"
-    },
-    {
-      title: "Project 3",
-      description: "This is a brief description of Project 3.",
-      github: "https://github.com/yourusername/project3",
-    },
-    {
-      title: "Project 3",
-      description: "This is a brief description of Project 3.",
-      github: "https://github.com/yourusername/project3",
-    },
-    {
-      title: "Project 3",
-      description: "This is a brief description of Project 3.",
-      github: "https://github.com/yourusername/project3",
-    },
-  ];
 
   return (
     <div className="proj-container">
@@ -38,8 +13,10 @@ export default function About() {
       <div className="project-cards-container">
         {projects.map((project, index) => (
           <div key={index} className="project-card">
-            <div id="info"><h3 className="ProjHeader">{project.title}</h3>
-            <p>{project.description}</p></div>
+            <div>
+              <h3 className="ProjHeader">{project.title}</h3>
+              <p>{project.description}</p>
+            </div>
             <a
               href={project.github}
               target="_blank"
@@ -50,6 +27,12 @@ export default function About() {
             </a>
           </div>
         ))}
+        <div key="18" className="project-card ">
+            <div>
+              <h3 className="ProjHeader">Media Server</h3>
+              <p>I created a private media server connected with my private network using a very old CPU to store the data. For the OS I used Ubuntu Server, and for the management used NextCloud for handling the data and file transfers.</p>
+            </div>
+          </div>
       </div>
     </div>
   );

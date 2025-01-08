@@ -232,12 +232,32 @@ export default function About() {
                 <span className="keywords_2">Sequence Models</span>
                 <br /><br />
 
-                <i>PS: The last 2 courses are work in progress</i>
+                <i>PS: The last 2 courses are work in progress</i><br /><br />
               </div>
             </div>
-          <div className="infoSection">
 
-          </div>
+
+        <div className="indivPoint">
+              <div className="pointHead">
+              ML and Datascience | Kaggle
+              </div>
+              <div className="pointInfo">
+                I have completed a number of courses in kaggle.com. They are -
+                <br/> <br/>
+                <span className="keywords_2">Data Visualization</span>
+                <br />
+                <span className="keywords_2">Intro to Machine Learning</span>
+                <br />
+                <span className="keywords_2">Intermediate Machine Learning</span>
+                <br />
+                <span className="keywords_2">Machine Learning Explainability</span>
+                <br />
+                <span className="keywords_2">Intro to Deep Learning</span>
+                <br /><br />
+
+              </div>
+            </div>
+
         </div>
 
       </div>
