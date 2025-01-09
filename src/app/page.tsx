@@ -61,7 +61,11 @@ export default function Home() {
     <div id="MainContainer">
       <div id="nameDiv">
         <span id="Name">
-          <span id="A">A</span>nkush<h1 id="space"></h1><span id="R">R</span>oy
+          <span id="FirstName"><span id="A">A</span>nkush<h1 id="space"></h1></span>
+          <span id="LastName">
+
+          <span id="R">R</span>oy
+          </span>
         </span>
         <h1 id="mobileName"><span>Ankush</span> <span>Roy</span></h1>
         <h1 id="desc"></h1>

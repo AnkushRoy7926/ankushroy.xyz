@@ -37,18 +37,18 @@ export default function About() {
 
         {/* About Me */}
         <div className="bg">
-          <h1 className="Header">👨‍🎓 <i>About Me</i></h1>
+          <h1 className="Header">👨🏻‍🎓 <i>About Me</i></h1>
           
           <div className="infoSection">
 
-            💻 I am <span className="keywords">Ankush Roy</span>, a student studying in Class 10 <i>(as of 2025 Feb)</i> {/* in Delhi Public School Ruby Park, Kolkata, West Bengal  */} in India. I am a self taught programmer, developer, graphics designer.
+            I am <span className="keywords">Ankush Roy</span>, a student studying in Class 10 <i>(as of 2025 Feb)</i> {/* in Delhi Public School Ruby Park, Kolkata, West Bengal  */} in India. I am a self taught programmer, developer, graphics designer.
             I have explored various tech areas out of which my favourite <i>(and in which I have the most experience)</i> are <span className="keywords">Web Development</span>, <span className="keywords">Data Science</span> and <span className="keywords">Machine Learning</span>.
             My key strengths include <span className="keywords_2">patience</span> and <span className="keywords_2">perseverence</span>.
             Other than tech I have an interest in pure maths and psychology.
 
             <br/><br/>
 
-            ⚛️ I am a diehard <span className="keywords">learner</span>, always on the lookout to learn about new things, technologies, facts. 
+            I am a diehard <span className="keywords">learner</span>, always on the lookout to learn about new things, technologies, facts. 
             <span className="keywords_2"> Curiosity</span> along with the <span className="keywords_2">desire to stand out from the average</span> is what fuels my ambition, my passion, my determination and helps me overcome whatever problem life throws at me.
             Being a curious individual I also hold an interest in <span className="keywords">World Economics & Politics</span>, <span className="keywords">Astronomy</span>, <span className="keywords">Prehistoric Creatures & Climate</span> and <span className="keywords">Business</span>.
 
@@ -58,7 +58,7 @@ export default function About() {
 
             <br/><br/>
 
-            ♟️ I also love playing <span className="keywords">Chess</span> and <span className="keywords">football</span>.
+            I also love playing <span className="keywords">Chess</span> and <span className="keywords">football</span>.
             Chess is something I picked up from my father.
             The sheer number of possible positions added with tactics and endless strategies are the things which make me love it.
             My favourite opening for black being the classical line of the <span className="keywords_2">Pirc Defense</span> and also like to play the <span className="keywords_2">Stonewall Defense</span> or <span className="keywords_2">Catalan</span> as White.

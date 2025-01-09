@@ -74,7 +74,7 @@
 }
 
 .contact_us_6 .container-block.form-wrapper {
-    background-color: white;
+    background-color: rgba(244, 244, 244, 0.6);
     max-width: 600px;
     text-align: center;
     padding-top: 50px;
@@ -82,10 +82,7 @@
     padding-bottom: 50px;
     padding-left: 40px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 20px 7px;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-    border-bottom-left-radius: 6px;
+    border-radius: 6px;
     margin-top: 90px;
     margin-right: 0px;
     margin-bottom: 60px;
@@ -131,15 +128,13 @@
     border-right-style: solid;
     border-bottom-style: solid;
     border-left-style: solid;
-    border-top-color: #eeeeee;
-    border-right-color: #eeeeee;
-    border-bottom-color: #eeeeee;
-    border-left-color: #eeeeee;
+    border-color: #eeeeee;
     border-image-source: initial;
     border-image-slice: initial;
     border-image-width: initial;
     border-image-outset: initial;
     border-image-repeat: initial;
+    border-radius: 7px;
     font-size: 16px;
     color: black;
 }
@@ -168,6 +163,7 @@
     border-image-width: initial;
     border-image-outset: initial;
     border-image-repeat: initial;
+    border-radius: 7px;
     font-size: 16px;
 }
 
@@ -182,23 +178,14 @@
     border-right-width: 0px;
     border-bottom-width: 0px;
     border-left-width: 0px;
-    border-top-style: outset;
-    border-right-style: outset;
-    border-bottom-style: outset;
-    border-left-style: outset;
-    border-top-color: #767676;
-    border-right-color: #767676;
-    border-bottom-color: #767676;
-    border-left-color: #767676;
+    border-style: outset;
+    border-color: #767676;
     border-image-source: initial;
     border-image-slice: initial;
     border-image-width: initial;
     border-image-outset: initial;
     border-image-repeat: initial;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-    border-bottom-right-radius: 40px;
-    border-bottom-left-radius: 40px;
+    border-radius: 40px;
 }
 
 .contact_us_6 .form-box {
@@ -220,11 +207,11 @@
     margin-right: 0px;
     margin-bottom: 5px;
     margin-left: 0px;
-    color: #9c9c9c;
+    color: rgb(0, 21, 55); /*Changed*/
 }
 
 .contact_us_6 ::placeholder {
-    color: #dadada;
+    color: #9c9c9c;
 }
 
 .contact_us_6 .mob-text {
