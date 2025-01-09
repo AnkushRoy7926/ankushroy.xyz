@@ -104,14 +104,14 @@
     }
   }
 
-  @media screen and (max-width: 1278) and (min-width:1024){
+  @media screen and (max-width: 1278px) and (min-width:1024px){
     :root{
         font-size: 10px;
     }
   }
 
 
-@media screen and (max-width: 656) {
+@media screen and (max-width: 656px) {
     #Name, #A, #R {
         width: 0;
         height: 0;

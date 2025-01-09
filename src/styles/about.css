@@ -75,7 +75,7 @@
     font-weight: 600;
 }
 
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
     .bg{
         font-size: 2.25rem;
         padding: 3rem;

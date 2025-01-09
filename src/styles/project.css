@@ -74,13 +74,13 @@
   }
 }
 
-@media screen and (max-width: 1440){
+@media screen and (max-width: 1440px){
 
   .ProjHeader{
     font-size: 1.8rem;
   }
 }
-@media screen and (max-width: 1250){
+@media screen and (max-width: 1250px){
 
 
   .project-cards-container{
@@ -97,7 +97,7 @@
   }
 }
 
-@media screen and (max-width: 884){
+@media screen and (max-width: 884px){
 
   .ProjHeader{
     font-size: 3rem;
