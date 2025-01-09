@@ -68,7 +68,7 @@ export default function Home() {
           </span>
         </span>
         <h1 id="mobileName"><span>Ankush</span> <span>Roy</span></h1>
-        <h1 id="desc"></h1>
+        <i id="desc"></i>
       </div>
       <IconBar></IconBar>
       <Credits></Credits> 
