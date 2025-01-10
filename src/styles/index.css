@@ -98,7 +98,7 @@
 
 @media screen and (max-width: 1512px) {
     #desc{
-        top:0;
+        top:3rem;
     }
   }
 
@@ -140,7 +140,8 @@
 
         position: relative;
         left: -1rem;
-        top: -10rem;
+        top: -2rem;
+        left:-2rem
     }
 
     ._404_mob {

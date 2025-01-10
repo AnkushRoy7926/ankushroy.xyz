@@ -16,7 +16,7 @@
 
     margin: 30px 80px;
     border-radius: 10px;
-    border-bottom: 1px dashed rgb(0,21,55);
+    /* border-bottom: 1px dashed rgb(0,21,55); */
 
     /* MORE SUITED TO BG IMG */
     /* background: #c6cdd7;
@@ -73,7 +73,7 @@
         /* color: #a0a9b8; */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
-        border-top: 1px dashed rgb(0,21,55);
+        /* border-top: 1px dashed rgb(0,21,55); */
 
         margin-top: 0;
         border-radius: 0;
