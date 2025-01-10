@@ -6,7 +6,7 @@
     /* font-family: "Montserrat", serif; */
     font-optical-sizing: 165px;
     font-weight: 500;
-    font-size: 8rem;
+    font-size: 7.5rem;
     /* letter-spacing: -0.8rem; */
     color: rgb(0,21,55);
     padding: 50px 100px;
@@ -29,12 +29,12 @@
 #R{
     margin-left: 5rem;
     margin-right: 3rem;
-    font-size: 13rem;
+    font-size: 12rem;
 }
 
 #A{
     margin-right: 1rem;
-    font-size: 13rem;
+    font-size: 12rem;
 }
 
 #space {
@@ -64,9 +64,9 @@
 
 #desc{
     font-family: "Poppins";
-    font-size: 2rem;
+    font-size: 1.5rem;
     position:relative;
-    top: -8rem;
+    top: -7rem;
     color: #a0a9b8;
     font-style: italic;
     height: 2rem;

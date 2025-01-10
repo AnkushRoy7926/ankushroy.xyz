@@ -16,7 +16,7 @@
 
     margin: 30px 80px;
     border-radius: 10px;
-    /* border-bottom: 1px dashed rgb(0,21,55); */
+    border-bottom: 1px dashed rgb(0,21,55);
 
     /* MORE SUITED TO BG IMG */
     /* background: #c6cdd7;
@@ -41,6 +41,7 @@
 }
 
 .links {
+    font-size: 1.75rem;
     text-decoration: none;
     margin: 0 60px;
     transition: transform 0.3s ease, color 0.3s ease; 
@@ -74,6 +75,7 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
         /* border-top: 1px dashed rgb(0,21,55); */
+        border-bottom: none;
 
         margin-top: 0;
         border-radius: 0;
