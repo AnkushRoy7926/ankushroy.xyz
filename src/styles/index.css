@@ -65,8 +65,8 @@
 #desc{
     font-family: "Poppins";
     font-size: 1.5rem;
-    position:relative;
-    top: -7rem;
+    position:absolute;
+    top: 60vh;
     color: #a0a9b8;
     font-style: italic;
     height: 2rem;
@@ -96,12 +96,6 @@
 /* If small width then change opacity of Name to 0, and change mobile-Name css */
 
 
-@media screen and (max-width: 1512px) {
-    #desc{
-        top:3rem;
-    }
-  }
-
   @media screen and (max-width: 1385px) and (min-width:1277px){
     #Name{
         font-size: 7rem;
@@ -114,6 +108,12 @@
     }
   }
 
+  @media screen and (max-width: 844px) {
+    #desc{
+        position: relative;
+        top:3rem;
+    }
+  }
 
 @media screen and (max-width: 656px) {
     #Name, #A, #R {
