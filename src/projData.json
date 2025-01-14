@@ -31,10 +31,11 @@
         "description": "This was a project I  made along with my teammates for the BITM Science fair. In here we used Object Detection System to make googles which could detect common objects and tell the blicd person (the user) that where exactly is the object located. We also made a wooden structure which has a speaker and a place where the person can keep a laptop and a section for the connection ports. We leveragd Orca to make a custom OS for the computer which makes it way easier and less time consuming for blind people to control. Perhaps the biggest compliment to the project would be the fact that the judges didnt belief that we made it on our own and didn't consider the project. ",
         "github": "https://github.com/LordRaleigh7926/News_Classifier"
     },
+    
     {
-        "title": "My Personal Website",
-        "description": "This is the website which you are currently in. I made it during my Preboards 2. I used nextJs for the backend, nodeMailer for the mailing service in the contact page.",
-        "github": "https://github.com/LordRaleigh7926/ankushroy.xyz"
+        "title": "Name Classifier",
+        "description": "This was a fun project to check into the language structures and see whether ccertain phonetics make our mind think that a name belongs to a girl or a boy. This model predicts whether a person is male of female by taking their name as input. Test Accuracy - 81%, Train Accuracy - 84% (Stopped Early)",
+        "github": "https://github.com/LordRaleigh7926/Classification_of_Names"
     },
     {
         "title": "Disney+ Clone",
@@ -81,11 +82,6 @@
         "title": "Recommendation System (Movies)",
         "description": "I created a Movie Recommendation System using a cosine KNN (K-Nearest Neighbors) model implemented in Python 3.11 using the guidelines of a video tutorial. It leverages user ratings to provide personalized movie recommendations. This currently uses the smaller dataset, I will upgrade it to the larger dataset soon which will result in a better model with more movies. You can also run it on streamlit as I have used streamlit to give a GUI to it but running the normal script also works.",
         "github": "https://github.com/LordRaleigh7926/Recommendation_System"
-    },
-    {
-        "title": "Name Classifier",
-        "description": "This was a fun project to check into the language structures and see whether ccertain phonetics make our mind think that a name belongs to a girl or a boy. This model predicts whether a person is male of female by taking their name as input. Test Accuracy - 81%, Train Accuracy - 84% (Stopped Early)",
-        "github": "https://github.com/LordRaleigh7926/Classification_of_Names"
     }
     
     

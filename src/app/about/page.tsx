@@ -41,7 +41,7 @@ export default function About() {
           
           <div className="infoSection">
 
-            I am <span className="keywords">Ankush Roy</span>, a student studying in Class 10 <i>(as of 2025 Feb)</i> {/* in Delhi Public School Ruby Park, Kolkata, West Bengal  */} in India. I am a self taught programmer, developer, graphics designer.
+            I am <span className="keywords">Ankush Roy</span>, a student studying in Class 10 <i>(as of 2025 Feb)</i> {/* in Delhi Public School Ruby Park, Kolkata, West Bengal  */} in India. I am a programmer, developer, graphics designer.
             I have explored various tech areas out of which my favourite <i>(and in which I have the most experience)</i> are <span className="keywords">Web Development</span>, <span className="keywords">Data Science</span> and <span className="keywords">Machine Learning</span>.
             My key strengths include <span className="keywords_2">patience</span> and <span className="keywords_2">perseverence</span>.
             Other than tech I have an interest in pure maths and psychology.
@@ -232,7 +232,7 @@ export default function About() {
                 <span className="keywords_2">Sequence Models</span>
                 <br /><br />
 
-                <i>PS: The last 2 courses are work in progress</i><br /><br />
+                <i>NB: The last 2 courses are work in progress</i><br /><br />
               </div>
             </div>
 
