@@ -9,7 +9,7 @@ interface PoemPageParams {
 }
 
 export default function PoemPage({ params }: PoemPageParams) {
-  let { id } = params;
+  const { id } = params;
   const poem = poems.find((p) => p.title === (id).replaceAll("%20", " "));
 
   if (!poem) return notFound();

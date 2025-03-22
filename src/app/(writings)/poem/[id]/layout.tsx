@@ -16,6 +16,7 @@ export default function PoemLayout({
         <html lang="en">
           <body>
             {children}
+            <SpeedInsights />
           </body>
         </html>
       );
