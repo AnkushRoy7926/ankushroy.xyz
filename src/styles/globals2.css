@@ -1,10 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=WindSong:wght@400;500&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 /* :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -22,7 +18,9 @@ body, html {
     padding: 0;
     /* line-height: 1.2rem; */
     height: 100vh;
-    background-image: url('../../public/bg.jpg');
+    /* background-image: url('../../public/bg.jpg'); */
+    background-color: #1e1e1e;
+    color: whitesmoke;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
@@ -31,7 +29,41 @@ body, html {
     overflow-x: hidden;
     /* font-size: 16px; */
     /* overflow-y: scroll; */
-    color: rgb(0,21,55);
+    /* color: rgb(0,21,55); */
+}
+
+pre {
+    font-family: "Poppins";
+}
+
+.content {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    height: max-content;
+    font-size: 1.5rem;
+}
+
+#writ-content{
+    border-left: 5px solid #c49952;
+    padding-left: 30px;
+
+}
+
+#title{
+    width: max-content;
+    text-align: left;
+}
+
+#pic {
+    width: 100vw;
+    height: 3rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -54,3 +86,4 @@ body, html {
       font-size: 7px;
   }
 }
+

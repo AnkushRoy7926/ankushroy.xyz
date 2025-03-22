@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Linear Regression in C++",
+        "description": "Ever wondered how to build a machine learning model from the ground up? Here, we're diving into linear regression — a super straightforward way to predict numbers based on data. Think house prices, stock prices, or even something like predicting temperature. Linear regression fits a straight line through your data, then adjusts that line to get as close as possible to the right answers.",
+        "link": "https://medium.com/@ankushroy7926_12676/linear-regression-in-c-6a8cb0f121a1"
+    },
+
+    {
+        "title": "Customizing Linux Terminal: Fastfetch",
+        "description": "Using Fastfetch a faster neofetch alternative to customize our linux terminals.",
+        "link": "https://medium.com/@ankushroy7926_12676/customizing-linux-terminal-fastfetch-not-neofetch-f7a318f9354d"
+    }
+    
+]

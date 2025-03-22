@@ -17,17 +17,6 @@
     margin: 30px 80px;
     border-radius: 10px;
     border-bottom: 1px dashed rgb(0,21,55);
-
-    /* MORE SUITED TO BG IMG */
-    /* background: #c6cdd7;
-    box-shadow:  28px 28px 56px #a8aeb7,
-    -28px -28px 56px #e4ecf7;  */
-
-    /* LOOKS EQUALLY IF NOT MORE GOOD */
-    /* background: #d3dae4;
-    box-shadow:  28px 28px 56px #b1b1b1,
-                 -28px -28px 56px #ffffff; */
-
 }
 
 #navContainer{
@@ -41,6 +30,7 @@
 }
 
 .links {
+    text-align: center;
     font-size: 1.75rem;
     text-decoration: none;
     margin: 0 60px;
@@ -84,7 +74,6 @@
     .links{
         margin: 0 1rem;
         font-size: 2rem;
-        
     }
 
     .links:hover{

@@ -82,6 +82,7 @@
     color: rgb(0,21,55);
     padding: 50px 100px;
     text-shadow: 1px 1px 30px #d3dae4;
+    line-height: 60px;
     
     opacity: 0;
     width: 0;

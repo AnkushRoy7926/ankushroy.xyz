@@ -1,14 +1,14 @@
 import React from "react";
 import "@styles/project.css";
-import projects from "./../../projData.json"; // Adjust the path as necessary
+import projects from "@data/projData.json"; // Adjust the path as necessary
 
 
-export default function About() {
+export default function Code_Stuff() {
   // Sample project data
 
   return (
     <div className="proj-container">
-      <p id='shortProjectText' className="text-center">All of my valuable projects. At one place.</p>
+      <p id='shortProjectText' className="text-center">My code and tech projects I created.</p>
 
       <div className="project-cards-container">
         {projects.map((project, index) => (
