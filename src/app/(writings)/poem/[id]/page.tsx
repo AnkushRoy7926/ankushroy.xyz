@@ -3,13 +3,13 @@ import {poems} from "@data/poems.js";
 import "@styles/writing.css";
 
 interface PoemPageParams {
-  params: {
+  params: Promise<{
     id: string;
-  };
+  }>;
 }
 
-export default function PoemPage({ params }: PoemPageParams) {
-  const { id } = params;
+export default async function PoemPage({ params }: PoemPageParams) {
+  const { id } = await params;
   const poem = poems.find((p) => p.title === (id).replaceAll("%20", " "));
 
   if (!poem) return notFound();
