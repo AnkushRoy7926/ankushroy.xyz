@@ -6,7 +6,6 @@ import Link from "next/link";
 import { GiAnchor } from "react-icons/gi";
 import { PiFlowerTulipBold } from "react-icons/pi";
 import { MdOutlineNightlightRound } from "react-icons/md";
-import { IconType } from "react-icons";
 
 // Mapping icons
 const iconMap = {

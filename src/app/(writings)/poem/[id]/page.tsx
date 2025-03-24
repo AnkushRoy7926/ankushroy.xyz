@@ -1,5 +1,3 @@
-`use client`;
-
 import { notFound } from "next/navigation";
 import {poems} from "@data/poems.js";
 import "@styles/writing.css";
