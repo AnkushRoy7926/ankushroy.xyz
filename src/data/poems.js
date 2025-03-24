@@ -1,6 +1,7 @@
 export const poems = [
     {
-      date: "",
+      date: "17 Feb 2025",
+      emoji: "⚓",
       title: "Sailing Phantom",
       content: `Part I
 
@@ -108,7 +109,8 @@ Their final screams still haunt the skies.
     },
 
     {
-      date: "",
+      date: "20 Feb 2025",
+      emoji: "🌸",
       title: "Forgotten Flower",
       content: `I have spent all of the love I saved
 we were always a losing game
@@ -138,7 +140,8 @@ to pluck admire and cast aside.
     },
 
     {
-      date: "",
+      date: "6 Mar 2025",
+      emoji: "🌒",
       title: "End of Everything",
       content: `I strolled down the empty lane
 The moon shadowing the path ahead

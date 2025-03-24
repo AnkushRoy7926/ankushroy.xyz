@@ -1,19 +1,22 @@
 [
     {
         "title": "Sailing Phantom",
-        "description": "A comprehensive guide to CSS Grid Layout.",
+        "description": "A ballad on a ship and its voyage.",
+        "icon": "GiAnchor",
         "type": "Poem"
     },
-
+    
     {
         "title": "Forgotten Flower",
-        "description": "A comprehensive guide to CSS Grid Layout.",
+        "description": "A small poem about",
+        "icon": "PiFlowerTulipBold",
         "type": "Poem"
     },
-
+    
     {
         "title": "End of Everything",
-        "description": "A comprehensive guide to CSS Grid Layout.",
+        "description": "A poem about lonelines and drug issues.",
+        "icon": "MdOutlineNightlightRound",
         "type": "Poem"
     }
 ]

@@ -6,9 +6,15 @@
     },
 
     {
-        "title": "Customizing Linux Terminal: Fastfetch",
-        "description": "Using Fastfetch a faster neofetch alternative to customize our linux terminals.",
+        "title": "Customizing Linux Terminal: Fastfetch (not Neofetch)",
+        "description": "In my article 'Customizing Linux Terminal: Fastfetch, Not Neofetch,' I introduce Fastfetch as a superior alternative to Neofetch for displaying system information in the Linux terminal. I explain why Fastfetch is faster, more customizable, and lightweight compared to Neofetch. The article covers installation, configuration, and how to personalize the output to enhance the terminal experience.",
         "link": "https://medium.com/@ankushroy7926_12676/customizing-linux-terminal-fastfetch-not-neofetch-f7a318f9354d"
+    },
+
+    {
+        "title": "TIOBE Is Trash: Why It Gets More Credit Than It Deserves & What to Use Instead",
+        "description": "In my article 'TIOBE is Trash: Why It Gets More Credit Than It Deserves & What to Use Instead,' I critique the TIOBE Index for being an unreliable measure of programming language popularity. I highlight its flawed methodology, which relies on search engine queries that can be misleading. Instead, I recommend better alternatives like the PYPL Index and Stack Overflow Developer Survey, which provide a more accurate picture based on actual usage and developer interest.",
+        "link": "https://medium.com/@ankushroy7926_12676/tiobe-is-trash-why-it-gets-more-credit-than-it-deserves-what-to-use-instead-afccc415b978"
     }
-    
+
 ]

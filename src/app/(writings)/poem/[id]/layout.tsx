@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import "@styles/globals2.css"
+import "@styles/globals2.css";
+import Navbar from "@components/navbar2";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
@@ -15,6 +16,7 @@ export default function PoemLayout({
     return (
         <html lang="en">
           <body>
+            <Navbar />
             {children}
             <SpeedInsights />
           </body>

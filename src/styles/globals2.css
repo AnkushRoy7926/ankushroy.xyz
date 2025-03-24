@@ -1,26 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=WindSong:wght@400;500&display=swap');
 
-/* :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-} */
 
 body, html {
     margin: 0;
     padding: 0;
-    /* line-height: 1.2rem; */
     height: 100vh;
-    /* background-image: url('../../public/bg.jpg'); */
-    background-color: #1e1e1e;
-    color: whitesmoke;
+    /* background-color: #1e1e1e; */
+    background-color: rgb(12, 16, 24);
+    /* color: whitesmoke; */
+    color: #b8c2d3;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
@@ -40,30 +29,54 @@ pre {
     flex-direction: column;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     justify-self: center;
     height: max-content;
     font-size: 1.5rem;
+    margin-left: 7rem;
+    margin-top: 7rem;
 }
 
-#writ-content{
-    border-left: 5px solid #c49952;
-    padding-left: 30px;
-
+.writ-content{
+    border-left: 5px solid rgb(160, 160, 160);
+    padding-left: 2.5rem;
+    white-space: pre-wrap;
+    margin: 0 2rem;
+    margin-bottom: 5rem;
 }
 
-#title{
+.date{
+    font-size: 1.2rem;
+    color: #727a89;
+    margin-left: 6rem;
+    margin-top: 0;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     width: max-content;
     text-align: left;
+    text-shadow: 8px 2px 10px #000000;
+    position: relative;
+    margin-top: 0;
+    font-size: 4rem;
+    top: calc(50vh - 3rem);
+    height: min-content;
+    padding-left: 3rem;
 }
 
-#pic {
+.pic {
+    display: flex;
+    margin: 0;
     width: 100vw;
-    height: 3rem;
+    height: 50vh;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    margin-bottom: 6rem;
 }
 
 
@@ -84,6 +97,21 @@ pre {
 @media screen and (max-width: 656px) {
   html{
       font-size: 7px;
+  }
+
+  .writ-content{
+      font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  
+  .title {
+      font-size: 3.5rem;
+  }
+
+  .content{
+      margin: 0 2rem;
   }
 }
 

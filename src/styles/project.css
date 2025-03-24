@@ -88,8 +88,7 @@
   border-radius: 20px;
   padding: 3rem 4rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, color 0.3s ease; 
-  
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .iconMenu:hover {
@@ -123,6 +122,38 @@
   width: 0;
 }
 
+.moveTranslate {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, color 0.3s ease;
+  
+}
+
+.moveTranslate:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.typeDesc {
+  text-align: center;
+}
+
+.story_poem {
+  margin-bottom: 0;
+  text-align: center !important;
+}
+
+.emoticonMain{
+  font-size: 15rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.poem_story_desc{
+  text-align: center !important;
+}
 
 
 @media screen and (max-width: 1724){
@@ -213,6 +244,16 @@
 }
 
 @media screen and (max-width: 683px) {
+
+  .moveTranslate:hover{
+    cursor: pointer;
+    transform: scale(1);
+  }
+
+  /* .iconMenu:hover {
+    cursor: pointer;
+    transform: scale(1);
+  } */
 
 
   .iconMenu {

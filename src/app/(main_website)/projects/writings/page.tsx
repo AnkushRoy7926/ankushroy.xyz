@@ -1,28 +1,40 @@
+`use client`;
+
 import React from "react";
 import "@styles/project.css";
 import writings from "@data/writings.json"; 
+import Link from "next/link";
+
+import { GiAnchor } from "react-icons/gi";
+import { PiFlowerTulipBold } from "react-icons/pi";
+import { MdOutlineNightlightRound } from "react-icons/md";
+
+// Mapping icons
+const iconMap:any= {
+  GiAnchor,
+  PiFlowerTulipBold,
+  MdOutlineNightlightRound,
+};
 
 export default function Writings() {
-
   return (
     <div className="proj-container">
       <p id='shortProjectText' className="text-center">My written pieces of Literature.</p>
 
       <div className="project-cards-container">
         {writings.map((writ, index) => (
-          <div key={index} className="project-card">
-            <div>
-              <h3 className="ProjHeader">{writ.title}</h3>
-              <p>{writ.description}</p>
-            </div>
-            <a
-              href={`/${(writ.type).toLowerCase()}/${writ.title}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="github-link"
-            >
-              View More
-            </a>
+          <div key={index} className="project-card moveTranslate">
+            <Link href={`/${(writ.type).toLowerCase()}/${writ.title}`} target="_blank"
+              rel="noopener noreferrer">
+              <div>
+                <h3 className="ProjHeader story_poem">{writ.title}</h3>
+                <h4 className="typeDesc">{writ.type}</h4>
+                <div className="emoticonMain">
+                  {writ.icon && iconMap[writ.icon] && React.createElement(iconMap[writ.icon])}
+                </div>
+                <p className="poem_story_desc">{writ.description}</p>
+              </div>
+            </Link>
           </div>
         ))}
       </div>
