@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=WindSong:wght@400;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900');
 
 body, html {
     margin: 0;
@@ -11,14 +10,15 @@ body, html {
     /* color: whitesmoke; */
     color: #b8c2d3;
     background-size: cover;
-    font-family: 'Poppins';
+    font-family: "Poppins";
     scroll-behavior: smooth;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
     overflow-x: hidden;
-    /* font-size: 16px; */
-    /* overflow-y: scroll; */
-    /* color: rgb(0,21,55); */
+}
+
+* {
+  font-family: "Poppins";
 }
 
 pre {
