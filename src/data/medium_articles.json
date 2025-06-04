@@ -15,6 +15,18 @@
         "title": "TIOBE Is Trash: Why It Gets More Credit Than It Deserves & What to Use Instead",
         "description": "In my article 'TIOBE is Trash: Why It Gets More Credit Than It Deserves & What to Use Instead,' I critique the TIOBE Index for being an unreliable measure of programming language popularity. I highlight its flawed methodology, which relies on search engine queries that can be misleading. Instead, I recommend better alternatives like the PYPL Index and Stack Overflow Developer Survey, which provide a more accurate picture based on actual usage and developer interest.",
         "link": "https://medium.com/@ankushroy7926_12676/tiobe-is-trash-why-it-gets-more-credit-than-it-deserves-what-to-use-instead-afccc415b978"
+    },
+
+    {
+        "title": "The Death of Passwords",
+        "description": "In this article, I explain why Passkeys are the future of online security, replacing traditional passwords. I discuss the limitations of passwords, such as their vulnerability to phishing and hacking, and how Passkeys offer a more secure alternative by using cryptographic keys stored on devices.",
+        "link": "https://medium.com/@techclubdpsrpk/the-death-of-passwords-d565093cace9"
+    },
+
+    {
+        "title": "Why Dark Mode Isn't Just About Looking Cool: The Science Behind Our Screen Obsession",
+        "description": "In this article, I explore the science behind dark mode and its impact on our screen time. I discuss how dark mode can reduce eye strain, improve battery life on OLED screens, and enhance focus by minimizing distractions. The article also touches on the psychological effects of dark mode, making it a popular choice for many users.",
+        "link": "https://medium.com/@ankushroy7/why-dark-mode-isnt-just-about-looking-cool-the-science-behind-our-screen-obsession-71be8b80b648"
     }
 
 ]
