@@ -2,22 +2,22 @@
     {
         "title": "Linear Regression from Scratch",
         "description": "I have implemented the Linear Regression Algorithm from Scratch twice. Once solely in C++ and once in Python. Both of them are included in the repositories. This was the first time I implemented a model from scratch completely on my own",
-        "github": "https://github.com/LordRaleigh7926/LinearRegression-from-Scratch"
+        "github": "https://github.com/AnkushRoy7926/LinearRegression-from-Scratch"
     },
     {
         "title": "Neural Network from Scratch",
         "description": "This project is a Python implementation of a neural network from scratch, designed for educational purposes. It aims to provide a hands-on understanding of how neural networks work by implementing the core algorithms manually. I made these in one of my online courses of Andrew Ng",
-        "github": "https://github.com/LordRaleigh7926/NeuralNetwork_from_Scratch"
+        "github": "https://github.com/AnkushRoy7926/NeuralNetwork_from_Scratch"
     },
     {
         "title": "Logistic Regression from Scratch",
         "description": "This is a Python implementation of Logistic Regression Model for binary classification tasks without the use of any modules. It includes gradient descent optimization. I have also provided Python files for usage example.",
-        "github": "https://github.com/LordRaleigh7926/LogisticRegression_from_Scratch"
+        "github": "https://github.com/AnkushRoy7926/LogisticRegression_from_Scratch"
     },
     {
         "title": "Image Stenographer",
         "description": "This Python program demonstrates a steganography technique for hiding text messages within images using the least significant bit (LSB) method. The hidden message is encoded into the image's pixel data and can be decoded later to retrieve the original message. The stenography coder implemented here cannot be decoded through online stenography tools as it cycles through the r, g, b to make it space efficient and harder to crack.",
-        "github": "https://github.com/LordRaleigh7926/Image-Stenographer"
+        "github": "https://github.com/AnkushRoy7926/Image-Stenographer"
     },
 
     {
@@ -29,59 +29,59 @@
     {
         "title": "InVision: Computer for the Blind",
         "description": "This was a project I  made along with my teammates for the BITM Science fair. In here we used Object Detection System to make googles which could detect common objects and tell the blicd person (the user) that where exactly is the object located. We also made a wooden structure which has a speaker and a place where the person can keep a laptop and a section for the connection ports. We leveragd Orca to make a custom OS for the computer which makes it way easier and less time consuming for blind people to control. Perhaps the biggest compliment to the project would be the fact that the judges didnt belief that we made it on our own and didn't consider the project. ",
-        "github": "https://github.com/LordRaleigh7926/News_Classifier"
+        "github": "https://github.com/AnkushRoy7926/News_Classifier"
     },
     
     {
         "title": "Name Classifier",
         "description": "This was a fun project to check into the language structures and see whether ccertain phonetics make our mind think that a name belongs to a girl or a boy. This model predicts whether a person is male of female by taking their name as input. Test Accuracy - 81%, Train Accuracy - 84% (Stopped Early)",
-        "github": "https://github.com/LordRaleigh7926/Classification_of_Names"
+        "github": "https://github.com/AnkushRoy7926/Classification_of_Names"
     },
     {
         "title": "Disney+ Clone",
         "description": "This project is a desing prototype of the Disney+ website with backend functionalities like google authentication using firebase and retrieving movies data from the firebase database. This was made using a tutorial and was one of the assignments/projects in Tech Club Code Week 2024. ",
-        "github": "https://github.com/LordRaleigh7926/disneyPlus_clone"
+        "github": "https://github.com/AnkushRoy7926/disneyPlus_clone"
     },
     {
         "title": "Custom Shell in C++",
         "description": "Made my own shell in C++. Great way to see how terminals and shell scripts work. I have implemented basic shell scripting and plan to expand this project in the future.",
-        "github": "https://github.com/LordRaleigh7926/Custom-Shell-in-CPP"
+        "github": "https://github.com/AnkushRoy7926/Custom-Shell-in-CPP"
     },
     
     {
         "title": "Zephyr : A Discord Bot",
         "description": "This is a bot built for entertainment purposes for the discord platform. It has functionalities like posting quotes, jokes, etc. This was my first project using asynchronous functions. ",
-        "github": "https://github.com/LordRaleigh7926/Zephyr"
+        "github": "https://github.com/AnkushRoy7926/Zephyr"
     },
     {
         "title": "News Classifier",
         "description": "This is a news classifier which classifies news into four main categories. They are, Science, Crime, Sports Business. I have used the SVC model and attained 88% accuracy. This is one of my first projects with NLP.",
-        "github": "https://github.com/LordRaleigh7926/News_Classifier"
+        "github": "https://github.com/AnkushRoy7926/News_Classifier"
     },
     {
         "title": "Resume Analyzer",
         "description": "It is a resume classification project using the K-Nearest Neighbors (KNN) algorithm and uses NLP. The main goal of this project is to demonstrate how to use KNN to classify resumes based on the job positions applicants are interested in.",
-        "github": "https://github.com/LordRaleigh7926/ResumeAnalyser"
+        "github": "https://github.com/AnkushRoy7926/ResumeAnalyser"
     },
     {
         "title": "EduAll Project",
         "description": "I created this using flask in the backend for a hackathon. EduAll is a web-based platform designed to help users create, manage, and track their learning journeys. It allows users to signup with Google authentication or through normal email registration. Users can enter topics they want to learn, and a personalized roadmap with recommended resources like links, books, and research materials is generated using Google Gemini. These roadmaps, progress notes, and research points are stored in Firebase for easy access and management.",
-        "github": "https://github.com/LordRaleigh7926/EduAll-Project"
+        "github": "https://github.com/AnkushRoy7926/EduAll-Project"
     },
     {
         "title": "Project NOVA",
         "description": "This was my attempt to recreate JARVIS. Project NOVA has great potential. What makes NOVA different is that other than being a regular chatbot it has complete access to my computer and can change wallpapers, open new tabs, download music and videos from yoiutube and play those if I tell it to do so. This project of mine is currently at a halt but I intend to make these better. The next upgrade will include a better speech to text model along with constant audio capture. Currently this is only supported on Linux and the backend uses Google GEMINI API to work.",
-        "github": "https://github.com/LordRaleigh7926/Project-Nova"
+        "github": "https://github.com/AnkushRoy7926/Project-Nova"
     },
     {
         "title": "Waiter Tip Prediction",
         "description": "This is the first project I used a neural network in. I made a Neural Network which takes in the required inputs and gives the tip amount to be expected. I got a MSE of around 0.8 here leading to the belief that there are very prominent and working patterns in the data. By doing thorough data analysis, it is evident that certain people and gender give out tips more often. This was an exciting and fun project to start with which showed me the tiny details hidden in the data which can yield big conclusions. ",
-        "github": "https://github.com/LordRaleigh7926/Waiter_Tip_Prediction"
+        "github": "https://github.com/AnkushRoy7926/Waiter_Tip_Prediction"
     },
     {
         "title": "Recommendation System (Movies)",
         "description": "I created a Movie Recommendation System using a cosine KNN (K-Nearest Neighbors) model implemented in Python 3.11 using the guidelines of a video tutorial. It leverages user ratings to provide personalized movie recommendations. This currently uses the smaller dataset, I will upgrade it to the larger dataset soon which will result in a better model with more movies. You can also run it on streamlit as I have used streamlit to give a GUI to it but running the normal script also works.",
-        "github": "https://github.com/LordRaleigh7926/Recommendation_System"
+        "github": "https://github.com/AnkushRoy7926/Recommendation_System"
     }
     
     

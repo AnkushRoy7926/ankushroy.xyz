@@ -17,7 +17,7 @@ export default function IconBar() {
       <div className="space-x-0">
         <ul className='mx-auto text-center space-x-12 lg:max-w-md max-w-[20rem] py-28 pb-20' id='iconList'>
           <li className='text-5xl lg:text-7xl font-semibold icons'>
-            <Link target='_blank' rel="noopener noreferrer" href="https://github.com/LordRaleigh7926">
+            <Link target='_blank' rel="noopener noreferrer" href="https://github.com/AnkushRoy7926">
               <RiGithubLine />
             </Link>
           </li>

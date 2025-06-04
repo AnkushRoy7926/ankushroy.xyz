@@ -114,7 +114,7 @@ Their final screams still haunt the skies.
       title: "Forgotten Flower",
       content: `I have spent all of the love I saved
 we were always a losing game
-when I saw u smile that way
+when I saw you smile that way
 It reminded me of the forgotten old days
 
 Yet this smile was for some other
